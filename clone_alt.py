@@ -115,7 +115,7 @@ def run_script():
 
     def clone_and_copy_repo(repo_path):
         # New repository link
-        new_repo_link = "https://github.com/kalomaze/Mangio-Kalo-Tweaks.git"
+        new_repo_link = "https://github.com/Krisp0o/-EVC-Internationalization.git"
         # Temporary path to clone the repository
         temp_repo_path = "/content/temp_Mangio-RVC-Fork"
         # New folder name
@@ -130,7 +130,7 @@ def run_script():
         # Switch to new branch
         run_cmd(f"git checkout {new_branch_name}")
 
-        run_cmd("wget https://github.com/kalomaze/Mangio-Kalo-Tweaks/raw/patch-1/EasierGUI.py")
+        run_cmd("wget https://github.com/Krisp0o/-EVC-Internationalization/raw/main/EasierGUI.py")
 
         # Edit the file here, before copying
         edit_file(f"{temp_repo_path}/infer-web.py")
